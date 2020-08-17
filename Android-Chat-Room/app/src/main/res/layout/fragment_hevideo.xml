@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hebg"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/backBtn" />
+
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_circle"
+        android:text="播放"
+        android:textSize="30sp"
+        android:textColor="#eb4d4b"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/button_circle"
+        android:text="結束"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/currentSrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="來源:"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#3498db"
+        android:textSize="15sp" />
+
+</RelativeLayout>

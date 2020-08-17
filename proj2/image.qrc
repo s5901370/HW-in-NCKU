@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>cute/background.png</file>
+        <file>cute/enemy.png</file>
+        <file>cute/tower.png</file>
+        <file>hp/hp1.png</file>
+        <file>hp/hp2.png</file>
+        <file>hp/hp3.png</file>
+        <file>hp/hp4.png</file>
+        <file>hp/hp5.png</file>
+        <file>hp/hp6.PNG</file>
+        <file>hp/hp7.PNG</file>
+        <file>hp/hp8.PNG</file>
+        <file>hp/hp9.PNG</file>
+        <file>hp/hp10.png</file>
+        <file>anchor.jpg</file>
+        <file>need_mana.aac</file>
+        <file>cute/castle (1).png</file>
+        <file>cute/castle (2).png</file>
+        <file>cute/e_castle.png</file>
+        <file>cute/e_elf.png</file>
+        <file>cute/e_horse.png</file>
+        <file>cute/horse.png</file>
+        <file>cute/nurse.png</file>
+        <file>cute/watermelon.png</file>
+        <file>cute/elf.png</file>
+        <file>card/1.png</file>
+        <file>cute/e_tank.png</file>
+        <file>cute/tank.png</file>
+        <file>card/2.png</file>
+        <file>card/3.png</file>
+        <file>card/4.png</file>
+        <file>card/5.png</file>
+        <file>card/d1.png</file>
+        <file>card/d2.png</file>
+        <file>card/d3.png</file>
+        <file>card/d4.png</file>
+        <file>card/d5.png</file>
+    </qresource>
+</RCC>

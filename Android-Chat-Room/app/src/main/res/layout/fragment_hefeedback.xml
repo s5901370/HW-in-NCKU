@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootConstraintLayout"
+    tools:context=".HEFeedbackFragment"
+    android:background="@drawable/hebg"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
+
+
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="題目\n大概\n三行"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home"
+        android:background="@color/zxing_transparent"/>
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="下一題"
+        android:textSize="35sp"
+        android:background="@drawable/button_circle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feedbackText"
+        app:layout_constraintVertical_bias="0.769" />
+
+</android.support.constraint.ConstraintLayout>

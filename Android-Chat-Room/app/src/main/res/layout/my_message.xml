@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="15dp"
+    android:paddingLeft="60dp"
+    android:clipToPadding="false">
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_body"
+        android:background="@drawable/my_message"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:textSize="@dimen/default_message_text_size"
+        android:layout_below="@+id/blank"
+        android:layout_alignParentRight="true"
+        android:text="Placeholder message"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_below="@+id/message_body"
+        android:layout_centerHorizontal="true"
+        android:text="1997/99/99"
+        android:textColor="#FF8C00"
+        android:textSize="@dimen/default_timestamp_text_size" />
+
+</RelativeLayout>

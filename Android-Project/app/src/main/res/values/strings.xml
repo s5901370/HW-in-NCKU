@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movie helper</string>
+    <string-array name="theatre">
+        <item>台南大遠百威秀影城</item>
+        <item>台南南紡威秀影城</item>
+        <item>國賓影城</item>
+        <item>南台影城</item>
+        <item>今日戲院</item>
+        <item>全美戲院</item>
+    </string-array>
+    <string-array name="address">
+        <item>公園路60號</item>
+        <item>中華東路一段366號</item>
+        <item>中華東路一段66號</item>
+        <item>友愛街317號</item>
+        <item>中正路249號</item>
+        <item>永福路二段187號</item>
+    </string-array>
+
+    <array name="images">
+        <item>@drawable/vieshow</item>
+        <item>@drawable/dreamvieshow</item>
+        <item>@drawable/quobing</item>
+        <item>@drawable/nantai</item>
+        <item>@drawable/today</item>
+        <item>@drawable/allmei</item>
+    </array>
+</resources>

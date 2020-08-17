@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/music_bg"
+    tools:context=".URLFragment">
+    <ImageButton
+        android:id="@+id/backBBB"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/zxing_transparent"
+        app:srcCompat="@drawable/leftback" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="650dp"
+        android:layout_marginTop="150dp"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:id="@+id/allLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/todayLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/News1"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/oldman_picture" />
+
+                <TextView
+                    android:id="@+id/Title1"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:text="新聞標題"
+                    android:textColor="#0c2461"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/favLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/News2"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/oldman_picture" />
+
+                <TextView
+                    android:id="@+id/Title2"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:text="新聞標題"
+                    android:textColor="#0c2461"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/oldLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/News3"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    app:srcCompat="@drawable/oldman_picture" />
+
+                <TextView
+                    android:id="@+id/Title3"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:text="新聞標題"
+                    android:textColor="#0c2461"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/olLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/News4"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    app:srcCompat="@drawable/oldman_picture" />
+
+                <TextView
+                    android:id="@+id/Title4"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:text="新聞標題"
+                    android:textColor="#0c2461"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ldLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/News5"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    app:srcCompat="@drawable/oldman_picture" />
+
+                <TextView
+                    android:id="@+id/Title5"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingTop="30dp"
+                    android:paddingBottom="30dp"
+                    android:text="新聞標題"
+                    android:textColor="#0c2461"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

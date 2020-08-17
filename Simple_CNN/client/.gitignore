@@ -1,0 +1,5 @@
+node_modules
+js/bundle.js
+
+# Ignore Mac specific files
+.DS_Store

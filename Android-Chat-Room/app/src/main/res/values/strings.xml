@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2016 Google Inc. All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+    <string name="app_name">慧讀 - 基於衛教測驗結果建立個人化閱讀清單推薦</string>
+    <string name="permission_message">This app needs to record audio and recognize your speech.</string>
+    <string name="listening">Listening…</string>
+    <string name="opening"></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Weather String Resources-->
+    <string name="weather_default_city">台北市</string>
+    <string name="weather_no_this_city_message">沒有這個縣市哦</string>
+    <string name="weather_greeting">哈囉，今天</string>
+    <string name="weather_not_available">今天天氣預測休息哦</string>
+    <string name="weather_sunny_description">天氣很好，不用帶傘哦</string>
+    <string name="weather_cloudy_description">雲很多，如果可以帶傘就盡量帶哦</string>
+    <string name="weather_rainy_description">會下雨，一定要帶傘哦</string>
+    <string name="weather_thunder_description">會下雷雨，一定要帶傘哦</string>
+
+    <!--General-->
+    <string name="please_say_again">抱歉我聽不清楚</string>
+    <string name="refreshing">重新整理中...</string>
+</resources>

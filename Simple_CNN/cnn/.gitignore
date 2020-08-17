@@ -1,0 +1,14 @@
+# Ignore the build and lib dirs
+build
+lib/*
+!lib/CMakeLists.txt
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore the VSCode files
+.vscode
+
+# Ignore the testing tmp files
+tmp/*
+!tmp/.gitkeep

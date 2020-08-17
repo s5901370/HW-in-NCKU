@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HEQuestionFragment"
+    android:background="@drawable/hebg"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="800dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="題目\n大概\n三行\最多\n可能\n五行"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/home"
+        android:background="@color/zxing_transparent"/>
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/zxing_transparent"
+        android:rotation="270"
+        android:src="@drawable/leftback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionText"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <TextView
+        android:id="@+id/subType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="20sp"
+        android:paddingTop="5dp"
+        android:paddingRight="20sp"
+        android:paddingBottom="5dp"
+
+        android:text="subType"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="@+id/questionText"
+        app:layout_constraintTop_toBottomOf="@+id/questionText"
+        app:layout_constraintVertical_bias="0.552" />
+
+</android.support.constraint.ConstraintLayout>

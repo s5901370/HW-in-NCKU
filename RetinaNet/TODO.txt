@@ -1,0 +1,4 @@
+cd lib/nms && rm -rf /build && rm *.so
+cd lib && python setup3.py build_ext --inplace
+python train.py --dataset coco --coco_path coco --depth 50
+python visualize.py --dataset coco --coco_path coco --model coco_retinanet_58.pt
